@@ -1,4 +1,4 @@
-export const About = () => {
+const Team = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse">
@@ -12,3 +12,4 @@ export const About = () => {
         </div>
     )
 }
+export default Team

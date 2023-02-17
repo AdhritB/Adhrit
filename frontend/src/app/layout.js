@@ -1,4 +1,4 @@
-import { About } from '@/components/About'
+import Team from '@/components/Team'
 import Footer from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import Login from '@/components/Login'
@@ -11,11 +11,12 @@ export default function RootLayout({ children }) {
 
       <body>
         <Navbar />
-        <Hero />
-        <Login />
-        <About />
-        <Footer />
+        {/* <Hero /> */}
+        {/* <Login /> */}
+        {/* <Team /> */}
+
         {children}
+        <Footer />
       </body>
     </html>
   )
