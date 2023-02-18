@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <div className='w-[300px] lg: w-full flex flex-col justify-center items-center'>
-                        <h1 className="lg:text-5xl text-primary font-bold tracking-widest text-white">Get Your Own AI-Generated<br />
+                        <h1 className="tracking-widest lg:text-5xl text-white font-bold">Get Your Own AI-Generated<br />
                             <Typewriter
                                 options={{
                                     strings: ['Image', 'Blog', 'LinkedIn Post'],
